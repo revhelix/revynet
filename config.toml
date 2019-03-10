@@ -1,0 +1,38 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "REVYNET"
+metadataformat = "yaml"
+theme = "terminal"
+
+
+[params]
+	name = "REVYNET"
+	description = "It is all about the packets"
+	favicon = "favicon.ico"
+	contentTypeName = "posts"
+	# ["orange", "blue", "red", "green", "pink"]
+	themeColor = "green"
+	showMenuItems = 2
+	fullWidthTheme = true
+	centerTheme = false
+
+[languages]
+	[languages.en]
+		title = "REVYNET"
+		subtitle = "It is all about the packets"
+		favicon = "favicon.ico"
+		keywords = ""
+		copyright = "Rev. H. Helix"
+		menuMore = "Show more"
+		readMore = "Read more"
+		readOtherPosts = "Read other posts"
+
+		[languages.en.params.logo]
+			logoText = "REVYNET"
+			logoHomeLink = "/"
+
+		[languages.en.menu]
+			[[languages.en.menu.main]]
+				identifier = "about"
+				name = "About"
+				url = "/about"
